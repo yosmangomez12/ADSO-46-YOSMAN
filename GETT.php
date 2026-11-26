@@ -1,6 +1,6 @@
 <?php
-if(isset($_GET1['palabra1']) && isset ($_GET1['palabra2'])){
-    echo "El que juega con ". $_GET1['palabra1'] . "termina" . $_GET1['palabra2'];
+if(isset($_GETT['palabra1']) && isset ($_GETT['palabra2'])){
+    echo "El que juega con ". $_GETT['palabra1'] . "termina" . $_GETT['palabra2'];
 }else{
     echo "No recibio ningun nombre"
 }
